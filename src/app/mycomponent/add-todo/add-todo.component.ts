@@ -5,7 +5,7 @@ import { Todo } from 'src/app/Todo';
   templateUrl: './add-todo.component.html',
   styleUrls: ['./add-todo.component.css']
 })
-export class AddtodoComponent implements OnInit {
+export class AddTodoComponent implements OnInit {
   title: string;
   desc: string;
   @Output() todoAdd: EventEmitter<Todo> =new EventEmitter();

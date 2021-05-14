@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToDoComponent } from './mycomponent/todos/todos.component';
 import { ToDoItemComponent } from './mycomponent/todo-item/todo-item.component';
-import { AddtodoComponent } from './mycomponent/add-todo/add-todo.component';
+import { AddTodoComponent} from './mycomponent/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     ToDoComponent,
     ToDoItemComponent,
-    AddtodoComponent
+    AddTodoComponent
   ],
   imports: [
     BrowserModule,
