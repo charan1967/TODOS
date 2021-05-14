@@ -41,7 +41,7 @@ export class ToDoComponent implements OnInit {
     this.todos.splice(index,1);
 
   }
-  AddTodo(todo: Todo){
+  addTodo(todo: Todo){
     console.log(todo);
     this.todos.push(todo);
 

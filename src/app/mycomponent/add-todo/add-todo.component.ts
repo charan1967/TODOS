@@ -1,9 +1,9 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { Todo } from 'src/app/Todo';
 @Component({
-  selector: 'app-addtodo',
-  templateUrl: './addtodo.component.html',
-  styleUrls: ['./addtodo.component.css']
+  selector: 'app-add-todo',
+  templateUrl: './add-todo.component.html',
+  styleUrls: ['./add-todo.component.css']
 })
 export class AddtodoComponent implements OnInit {
   title: string;

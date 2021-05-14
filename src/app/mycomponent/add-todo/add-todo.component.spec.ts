@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddtodoComponent } from './addtodo.component';
+import { AddtodoComponent } from './add-todo.component';
 
 describe('AddtodoComponent', () => {
   let component: AddtodoComponent;
