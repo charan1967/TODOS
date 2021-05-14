@@ -1,6 +1,6 @@
-export class todo {
+export class Todo{
     sno: number
-    title: string
+    title:string
     desc: string
     active: boolean
 }
