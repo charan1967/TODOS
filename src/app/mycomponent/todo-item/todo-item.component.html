@@ -1,3 +1,4 @@
+<div class="conatiner">
 <div class="my-3">
     <h5 [ngClass]="{'strike': !todo.active}">{{todo.title}}</h5>
     <p>{{todo.desc}}</p>
@@ -8,4 +9,5 @@
 
     <button class="btn btn-sm btn-danger" (click)="onClick(todo)">Delete</button>
 
+</div>
 </div>

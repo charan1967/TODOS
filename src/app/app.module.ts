@@ -7,13 +7,15 @@ import { ToDoComponent } from './mycomponent/todos/todos.component';
 import { ToDoItemComponent } from './mycomponent/todo-item/todo-item.component';
 import { AddTodoComponent} from './mycomponent/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './mycomponent/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToDoComponent,
     ToDoItemComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
